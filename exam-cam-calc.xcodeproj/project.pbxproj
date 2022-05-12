@@ -1,0 +1,1105 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD6A84D0282CBFC600FF089A /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6A84CF282CBFC600FF089A /* ImagePicker.swift */; };
+		CD6A84D3282CC91400FF089A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9B2C5282BCE6800BCDEC7 /* ViewController.swift */; };
+		CD6A84D4282CC91400FF089A /* VisionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9B300282CB71700BCDEC7 /* VisionHelper.swift */; };
+		CD6A84D5282CC91400FF089A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9B2C1282BCE6800BCDEC7 /* AppDelegate.swift */; };
+		CD6A84D6282CC91400FF089A /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6A84CF282CBFC600FF089A /* ImagePicker.swift */; };
+		CD6A84D7282CC91400FF089A /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9B2F8282BD25800BCDEC7 /* CalculatorViewModel.swift */; };
+		CD6A84D8282CC91400FF089A /* CalculatorViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9B2FA282BD27000BCDEC7 /* CalculatorViewModelProtocol.swift */; };
+		CD6A84D9282CC91400FF089A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9B2C3282BCE6800BCDEC7 /* SceneDelegate.swift */; };
+		CD6A84DC282CC91400FF089A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB9B2CC282BCE6A00BCDEC7 /* LaunchScreen.storyboard */; };
+		CD6A84DD282CC91400FF089A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB9B2CA282BCE6A00BCDEC7 /* Assets.xcassets */; };
+		CD6A84DE282CC91400FF089A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB9B2C7282BCE6800BCDEC7 /* Main.storyboard */; };
+		CD6A84E7282CCA2700FF089A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9B2C5282BCE6800BCDEC7 /* ViewController.swift */; };
+		CD6A84E8282CCA2700FF089A /* VisionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9B300282CB71700BCDEC7 /* VisionHelper.swift */; };
+		CD6A84E9282CCA2700FF089A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9B2C1282BCE6800BCDEC7 /* AppDelegate.swift */; };
+		CD6A84EA282CCA2700FF089A /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6A84CF282CBFC600FF089A /* ImagePicker.swift */; };
+		CD6A84EB282CCA2700FF089A /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9B2F8282BD25800BCDEC7 /* CalculatorViewModel.swift */; };
+		CD6A84EC282CCA2700FF089A /* CalculatorViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9B2FA282BD27000BCDEC7 /* CalculatorViewModelProtocol.swift */; };
+		CD6A84ED282CCA2700FF089A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9B2C3282BCE6800BCDEC7 /* SceneDelegate.swift */; };
+		CD6A84F0282CCA2700FF089A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB9B2CC282BCE6A00BCDEC7 /* LaunchScreen.storyboard */; };
+		CD6A84F1282CCA2700FF089A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB9B2CA282BCE6A00BCDEC7 /* Assets.xcassets */; };
+		CD6A84F2282CCA2700FF089A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB9B2C7282BCE6800BCDEC7 /* Main.storyboard */; };
+		CD6A84F8282CCA8D00FF089A /* app-green-filesystem.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD6A84F7282CCA8D00FF089A /* app-green-filesystem.plist */; };
+		CD6A84FB282CCB1300FF089A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9B2C5282BCE6800BCDEC7 /* ViewController.swift */; };
+		CD6A84FC282CCB1300FF089A /* VisionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9B300282CB71700BCDEC7 /* VisionHelper.swift */; };
+		CD6A84FD282CCB1300FF089A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9B2C1282BCE6800BCDEC7 /* AppDelegate.swift */; };
+		CD6A84FE282CCB1300FF089A /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6A84CF282CBFC600FF089A /* ImagePicker.swift */; };
+		CD6A84FF282CCB1300FF089A /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9B2F8282BD25800BCDEC7 /* CalculatorViewModel.swift */; };
+		CD6A8500282CCB1300FF089A /* CalculatorViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9B2FA282BD27000BCDEC7 /* CalculatorViewModelProtocol.swift */; };
+		CD6A8501282CCB1300FF089A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9B2C3282BCE6800BCDEC7 /* SceneDelegate.swift */; };
+		CD6A8504282CCB1300FF089A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB9B2CC282BCE6A00BCDEC7 /* LaunchScreen.storyboard */; };
+		CD6A8505282CCB1300FF089A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB9B2CA282BCE6A00BCDEC7 /* Assets.xcassets */; };
+		CD6A8506282CCB1300FF089A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB9B2C7282BCE6800BCDEC7 /* Main.storyboard */; };
+		CDB9B2C2282BCE6800BCDEC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9B2C1282BCE6800BCDEC7 /* AppDelegate.swift */; };
+		CDB9B2C4282BCE6800BCDEC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9B2C3282BCE6800BCDEC7 /* SceneDelegate.swift */; };
+		CDB9B2C6282BCE6800BCDEC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9B2C5282BCE6800BCDEC7 /* ViewController.swift */; };
+		CDB9B2C9282BCE6800BCDEC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB9B2C7282BCE6800BCDEC7 /* Main.storyboard */; };
+		CDB9B2CB282BCE6A00BCDEC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB9B2CA282BCE6A00BCDEC7 /* Assets.xcassets */; };
+		CDB9B2CE282BCE6A00BCDEC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB9B2CC282BCE6A00BCDEC7 /* LaunchScreen.storyboard */; };
+		CDB9B2D9282BCE6A00BCDEC7 /* exam_cam_calcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9B2D8282BCE6A00BCDEC7 /* exam_cam_calcTests.swift */; };
+		CDB9B2E3282BCE6A00BCDEC7 /* exam_cam_calcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9B2E2282BCE6A00BCDEC7 /* exam_cam_calcUITests.swift */; };
+		CDB9B2E5282BCE6A00BCDEC7 /* exam_cam_calcUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9B2E4282BCE6A00BCDEC7 /* exam_cam_calcUITestsLaunchTests.swift */; };
+		CDB9B2F9282BD25800BCDEC7 /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9B2F8282BD25800BCDEC7 /* CalculatorViewModel.swift */; };
+		CDB9B2FB282BD27100BCDEC7 /* CalculatorViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9B2FA282BD27000BCDEC7 /* CalculatorViewModelProtocol.swift */; };
+		CDB9B301282CB71700BCDEC7 /* VisionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9B300282CB71700BCDEC7 /* VisionHelper.swift */; };
+		CDDDCC32282CD22D004FE364 /* app-green-camera-roll.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDDDCC30282CD22C004FE364 /* app-green-camera-roll.plist */; };
+		CDDDCC33282CD22D004FE364 /* app-red-built-in-camera.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDDDCC31282CD22D004FE364 /* app-red-built-in-camera.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDB9B2D5282BCE6A00BCDEC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDB9B2B6282BCE6700BCDEC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDB9B2BD282BCE6700BCDEC7;
+			remoteInfo = "exam-cam-calc";
+		};
+		CDB9B2DF282BCE6A00BCDEC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDB9B2B6282BCE6700BCDEC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDB9B2BD282BCE6700BCDEC7;
+			remoteInfo = "exam-cam-calc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD6A84CF282CBFC600FF089A /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		CD6A84E2282CC91400FF089A /* app-red-built-in-camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-red-built-in-camera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6A84F6282CCA2700FF089A /* app-green-filesystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-green-filesystem.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6A84F7282CCA8D00FF089A /* app-green-filesystem.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "app-green-filesystem.plist"; sourceTree = "<group>"; };
+		CD6A850A282CCB1300FF089A /* app-green-camera-roll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-green-camera-roll.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB9B2BE282BCE6800BCDEC7 /* app-red-cameral-roll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-red-cameral-roll.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB9B2C1282BCE6800BCDEC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDB9B2C3282BCE6800BCDEC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CDB9B2C5282BCE6800BCDEC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDB9B2C8282BCE6800BCDEC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDB9B2CA282BCE6A00BCDEC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDB9B2CD282BCE6A00BCDEC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDB9B2CF282BCE6A00BCDEC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDB9B2D4282BCE6A00BCDEC7 /* exam-cam-calcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "exam-cam-calcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB9B2D8282BCE6A00BCDEC7 /* exam_cam_calcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exam_cam_calcTests.swift; sourceTree = "<group>"; };
+		CDB9B2DE282BCE6A00BCDEC7 /* exam-cam-calcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "exam-cam-calcUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB9B2E2282BCE6A00BCDEC7 /* exam_cam_calcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exam_cam_calcUITests.swift; sourceTree = "<group>"; };
+		CDB9B2E4282BCE6A00BCDEC7 /* exam_cam_calcUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exam_cam_calcUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CDB9B2F8282BD25800BCDEC7 /* CalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModel.swift; sourceTree = "<group>"; };
+		CDB9B2FA282BD27000BCDEC7 /* CalculatorViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModelProtocol.swift; sourceTree = "<group>"; };
+		CDB9B300282CB71700BCDEC7 /* VisionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionHelper.swift; sourceTree = "<group>"; };
+		CDDDCC30282CD22C004FE364 /* app-green-camera-roll.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "app-green-camera-roll.plist"; sourceTree = "<group>"; };
+		CDDDCC31282CD22D004FE364 /* app-red-built-in-camera.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "app-red-built-in-camera.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD6A84DA282CC91400FF089A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6A84EE282CCA2700FF089A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6A8502282CCB1300FF089A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB9B2BB282BCE6700BCDEC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB9B2D1282BCE6A00BCDEC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB9B2DB282BCE6A00BCDEC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD6A84E4282CC9E100FF089A /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				CDDDCC30282CD22C004FE364 /* app-green-camera-roll.plist */,
+				CDDDCC31282CD22D004FE364 /* app-red-built-in-camera.plist */,
+				CDB9B2CF282BCE6A00BCDEC7 /* Info.plist */,
+				CD6A84F7282CCA8D00FF089A /* app-green-filesystem.plist */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		CDB9B2B5282BCE6700BCDEC7 = {
+			isa = PBXGroup;
+			children = (
+				CDB9B2C0282BCE6800BCDEC7 /* exam-cam-calc */,
+				CDB9B2D7282BCE6A00BCDEC7 /* exam-cam-calcTests */,
+				CDB9B2E1282BCE6A00BCDEC7 /* exam-cam-calcUITests */,
+				CDB9B2BF282BCE6800BCDEC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDB9B2BF282BCE6800BCDEC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDB9B2BE282BCE6800BCDEC7 /* app-red-cameral-roll.app */,
+				CDB9B2D4282BCE6A00BCDEC7 /* exam-cam-calcTests.xctest */,
+				CDB9B2DE282BCE6A00BCDEC7 /* exam-cam-calcUITests.xctest */,
+				CD6A84E2282CC91400FF089A /* app-red-built-in-camera.app */,
+				CD6A84F6282CCA2700FF089A /* app-green-filesystem.app */,
+				CD6A850A282CCB1300FF089A /* app-green-camera-roll.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDB9B2C0282BCE6800BCDEC7 /* exam-cam-calc */ = {
+			isa = PBXGroup;
+			children = (
+				CDB9B2FC282CB52800BCDEC7 /* Utilities */,
+				CDB9B2F2282BCFF700BCDEC7 /* Application */,
+				CDB9B2F1282BCE8000BCDEC7 /* Resources */,
+			);
+			path = "exam-cam-calc";
+			sourceTree = "<group>";
+		};
+		CDB9B2D7282BCE6A00BCDEC7 /* exam-cam-calcTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDB9B2D8282BCE6A00BCDEC7 /* exam_cam_calcTests.swift */,
+			);
+			path = "exam-cam-calcTests";
+			sourceTree = "<group>";
+		};
+		CDB9B2E1282BCE6A00BCDEC7 /* exam-cam-calcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDB9B2E2282BCE6A00BCDEC7 /* exam_cam_calcUITests.swift */,
+				CDB9B2E4282BCE6A00BCDEC7 /* exam_cam_calcUITestsLaunchTests.swift */,
+			);
+			path = "exam-cam-calcUITests";
+			sourceTree = "<group>";
+		};
+		CDB9B2F1282BCE8000BCDEC7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CD6A84E4282CC9E100FF089A /* Targets */,
+				CDB9B2CC282BCE6A00BCDEC7 /* LaunchScreen.storyboard */,
+				CDB9B2CA282BCE6A00BCDEC7 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CDB9B2F2282BCFF700BCDEC7 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				CDB9B2F4282BD01600BCDEC7 /* Calculator */,
+				CDB9B2F3282BCFFD00BCDEC7 /* Main */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		CDB9B2F3282BCFFD00BCDEC7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CDB9B2C1282BCE6800BCDEC7 /* AppDelegate.swift */,
+				CDB9B2C3282BCE6800BCDEC7 /* SceneDelegate.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CDB9B2F4282BD01600BCDEC7 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				CDB9B2F7282BD04700BCDEC7 /* ViewModels */,
+				CDB9B2F6282BD04000BCDEC7 /* Models */,
+				CDB9B2F5282BD03200BCDEC7 /* View */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		CDB9B2F5282BD03200BCDEC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CDB9B2C7282BCE6800BCDEC7 /* Main.storyboard */,
+				CDB9B2C5282BCE6800BCDEC7 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CDB9B2F6282BD04000BCDEC7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CDB9B2F7282BD04700BCDEC7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CDB9B2F8282BD25800BCDEC7 /* CalculatorViewModel.swift */,
+				CDB9B2FA282BD27000BCDEC7 /* CalculatorViewModelProtocol.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CDB9B2FC282CB52800BCDEC7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CDB9B2FF282CB62600BCDEC7 /* Extensions */,
+				CDB9B300282CB71700BCDEC7 /* VisionHelper.swift */,
+				CD6A84CF282CBFC600FF089A /* ImagePicker.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CDB9B2FF282CB62600BCDEC7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD6A84D1282CC91400FF089A /* app-red-built-in-camera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6A84DF282CC91400FF089A /* Build configuration list for PBXNativeTarget "app-red-built-in-camera" */;
+			buildPhases = (
+				CD6A84D2282CC91400FF089A /* Sources */,
+				CD6A84DA282CC91400FF089A /* Frameworks */,
+				CD6A84DB282CC91400FF089A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "app-red-built-in-camera";
+			productName = "exam-cam-calc";
+			productReference = CD6A84E2282CC91400FF089A /* app-red-built-in-camera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD6A84E5282CCA2700FF089A /* app-green-filesystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6A84F3282CCA2700FF089A /* Build configuration list for PBXNativeTarget "app-green-filesystem" */;
+			buildPhases = (
+				CD6A84E6282CCA2700FF089A /* Sources */,
+				CD6A84EE282CCA2700FF089A /* Frameworks */,
+				CD6A84EF282CCA2700FF089A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "app-green-filesystem";
+			productName = "exam-cam-calc";
+			productReference = CD6A84F6282CCA2700FF089A /* app-green-filesystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD6A84F9282CCB1300FF089A /* app-green-camera-roll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6A8507282CCB1300FF089A /* Build configuration list for PBXNativeTarget "app-green-camera-roll" */;
+			buildPhases = (
+				CD6A84FA282CCB1300FF089A /* Sources */,
+				CD6A8502282CCB1300FF089A /* Frameworks */,
+				CD6A8503282CCB1300FF089A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "app-green-camera-roll";
+			productName = "exam-cam-calc";
+			productReference = CD6A850A282CCB1300FF089A /* app-green-camera-roll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDB9B2BD282BCE6700BCDEC7 /* app-red-cameral-roll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDB9B2E8282BCE6A00BCDEC7 /* Build configuration list for PBXNativeTarget "app-red-cameral-roll" */;
+			buildPhases = (
+				CDB9B2BA282BCE6700BCDEC7 /* Sources */,
+				CDB9B2BB282BCE6700BCDEC7 /* Frameworks */,
+				CDB9B2BC282BCE6700BCDEC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "app-red-cameral-roll";
+			productName = "exam-cam-calc";
+			productReference = CDB9B2BE282BCE6800BCDEC7 /* app-red-cameral-roll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDB9B2D3282BCE6A00BCDEC7 /* exam-cam-calcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDB9B2EB282BCE6A00BCDEC7 /* Build configuration list for PBXNativeTarget "exam-cam-calcTests" */;
+			buildPhases = (
+				CDB9B2D0282BCE6A00BCDEC7 /* Sources */,
+				CDB9B2D1282BCE6A00BCDEC7 /* Frameworks */,
+				CDB9B2D2282BCE6A00BCDEC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDB9B2D6282BCE6A00BCDEC7 /* PBXTargetDependency */,
+			);
+			name = "exam-cam-calcTests";
+			productName = "exam-cam-calcTests";
+			productReference = CDB9B2D4282BCE6A00BCDEC7 /* exam-cam-calcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDB9B2DD282BCE6A00BCDEC7 /* exam-cam-calcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDB9B2EE282BCE6A00BCDEC7 /* Build configuration list for PBXNativeTarget "exam-cam-calcUITests" */;
+			buildPhases = (
+				CDB9B2DA282BCE6A00BCDEC7 /* Sources */,
+				CDB9B2DB282BCE6A00BCDEC7 /* Frameworks */,
+				CDB9B2DC282BCE6A00BCDEC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDB9B2E0282BCE6A00BCDEC7 /* PBXTargetDependency */,
+			);
+			name = "exam-cam-calcUITests";
+			productName = "exam-cam-calcUITests";
+			productReference = CDB9B2DE282BCE6A00BCDEC7 /* exam-cam-calcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDB9B2B6282BCE6700BCDEC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					CDB9B2BD282BCE6700BCDEC7 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					CDB9B2D3282BCE6A00BCDEC7 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = CDB9B2BD282BCE6700BCDEC7;
+					};
+					CDB9B2DD282BCE6A00BCDEC7 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = CDB9B2BD282BCE6700BCDEC7;
+					};
+				};
+			};
+			buildConfigurationList = CDB9B2B9282BCE6700BCDEC7 /* Build configuration list for PBXProject "exam-cam-calc" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDB9B2B5282BCE6700BCDEC7;
+			productRefGroup = CDB9B2BF282BCE6800BCDEC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDB9B2BD282BCE6700BCDEC7 /* app-red-cameral-roll */,
+				CDB9B2D3282BCE6A00BCDEC7 /* exam-cam-calcTests */,
+				CDB9B2DD282BCE6A00BCDEC7 /* exam-cam-calcUITests */,
+				CD6A84D1282CC91400FF089A /* app-red-built-in-camera */,
+				CD6A84E5282CCA2700FF089A /* app-green-filesystem */,
+				CD6A84F9282CCB1300FF089A /* app-green-camera-roll */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD6A84DB282CC91400FF089A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6A84DC282CC91400FF089A /* LaunchScreen.storyboard in Resources */,
+				CD6A84DD282CC91400FF089A /* Assets.xcassets in Resources */,
+				CD6A84DE282CC91400FF089A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6A84EF282CCA2700FF089A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6A84F0282CCA2700FF089A /* LaunchScreen.storyboard in Resources */,
+				CD6A84F1282CCA2700FF089A /* Assets.xcassets in Resources */,
+				CD6A84F2282CCA2700FF089A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6A8503282CCB1300FF089A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6A8504282CCB1300FF089A /* LaunchScreen.storyboard in Resources */,
+				CD6A8505282CCB1300FF089A /* Assets.xcassets in Resources */,
+				CD6A8506282CCB1300FF089A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB9B2BC282BCE6700BCDEC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDDDCC32282CD22D004FE364 /* app-green-camera-roll.plist in Resources */,
+				CDDDCC33282CD22D004FE364 /* app-red-built-in-camera.plist in Resources */,
+				CDB9B2CE282BCE6A00BCDEC7 /* LaunchScreen.storyboard in Resources */,
+				CD6A84F8282CCA8D00FF089A /* app-green-filesystem.plist in Resources */,
+				CDB9B2CB282BCE6A00BCDEC7 /* Assets.xcassets in Resources */,
+				CDB9B2C9282BCE6800BCDEC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB9B2D2282BCE6A00BCDEC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB9B2DC282BCE6A00BCDEC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD6A84D2282CC91400FF089A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6A84D3282CC91400FF089A /* ViewController.swift in Sources */,
+				CD6A84D4282CC91400FF089A /* VisionHelper.swift in Sources */,
+				CD6A84D5282CC91400FF089A /* AppDelegate.swift in Sources */,
+				CD6A84D6282CC91400FF089A /* ImagePicker.swift in Sources */,
+				CD6A84D7282CC91400FF089A /* CalculatorViewModel.swift in Sources */,
+				CD6A84D8282CC91400FF089A /* CalculatorViewModelProtocol.swift in Sources */,
+				CD6A84D9282CC91400FF089A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6A84E6282CCA2700FF089A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6A84E7282CCA2700FF089A /* ViewController.swift in Sources */,
+				CD6A84E8282CCA2700FF089A /* VisionHelper.swift in Sources */,
+				CD6A84E9282CCA2700FF089A /* AppDelegate.swift in Sources */,
+				CD6A84EA282CCA2700FF089A /* ImagePicker.swift in Sources */,
+				CD6A84EB282CCA2700FF089A /* CalculatorViewModel.swift in Sources */,
+				CD6A84EC282CCA2700FF089A /* CalculatorViewModelProtocol.swift in Sources */,
+				CD6A84ED282CCA2700FF089A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6A84FA282CCB1300FF089A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6A84FB282CCB1300FF089A /* ViewController.swift in Sources */,
+				CD6A84FC282CCB1300FF089A /* VisionHelper.swift in Sources */,
+				CD6A84FD282CCB1300FF089A /* AppDelegate.swift in Sources */,
+				CD6A84FE282CCB1300FF089A /* ImagePicker.swift in Sources */,
+				CD6A84FF282CCB1300FF089A /* CalculatorViewModel.swift in Sources */,
+				CD6A8500282CCB1300FF089A /* CalculatorViewModelProtocol.swift in Sources */,
+				CD6A8501282CCB1300FF089A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB9B2BA282BCE6700BCDEC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB9B2C6282BCE6800BCDEC7 /* ViewController.swift in Sources */,
+				CDB9B301282CB71700BCDEC7 /* VisionHelper.swift in Sources */,
+				CDB9B2C2282BCE6800BCDEC7 /* AppDelegate.swift in Sources */,
+				CD6A84D0282CBFC600FF089A /* ImagePicker.swift in Sources */,
+				CDB9B2F9282BD25800BCDEC7 /* CalculatorViewModel.swift in Sources */,
+				CDB9B2FB282BD27100BCDEC7 /* CalculatorViewModelProtocol.swift in Sources */,
+				CDB9B2C4282BCE6800BCDEC7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB9B2D0282BCE6A00BCDEC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB9B2D9282BCE6A00BCDEC7 /* exam_cam_calcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB9B2DA282BCE6A00BCDEC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB9B2E5282BCE6A00BCDEC7 /* exam_cam_calcUITestsLaunchTests.swift in Sources */,
+				CDB9B2E3282BCE6A00BCDEC7 /* exam_cam_calcUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDB9B2D6282BCE6A00BCDEC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDB9B2BD282BCE6700BCDEC7 /* app-red-cameral-roll */;
+			targetProxy = CDB9B2D5282BCE6A00BCDEC7 /* PBXContainerItemProxy */;
+		};
+		CDB9B2E0282BCE6A00BCDEC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDB9B2BD282BCE6700BCDEC7 /* app-red-cameral-roll */;
+			targetProxy = CDB9B2DF282BCE6A00BCDEC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDB9B2C7282BCE6800BCDEC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDB9B2C8282BCE6800BCDEC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDB9B2CC282BCE6A00BCDEC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDB9B2CD282BCE6A00BCDEC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD6A84E0282CC91400FF089A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BU96XRZ7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "exam-cam-calc/Resources/Targets/app-red-built-in-camera.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app wants to take pictures.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-DBUILTINCAMERARED";
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.exam-cam-calc-cam-red";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD6A84E1282CC91400FF089A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BU96XRZ7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "exam-cam-calc/Resources/Targets/app-red-built-in-camera.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app wants to take pictures.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-DBUILTINCAMERARED";
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.exam-cam-calc-cam-red";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD6A84F4282CCA2700FF089A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BU96XRZ7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "exam-cam-calc/Resources/Targets/app-green-filesystem.plist";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app wants to use your photos.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-DFILESYSTEMGREEN";
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.exam-cam-calc-file-green";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD6A84F5282CCA2700FF089A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BU96XRZ7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "exam-cam-calc/Resources/Targets/app-green-filesystem.plist";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app wants to use your photos.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-DFILESYSTEMGREEN";
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.exam-cam-calc-file-green";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD6A8508282CCB1300FF089A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BU96XRZ7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "exam-cam-calc/Resources/Targets/app-green-camera-roll.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app wants to take pictures.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-DCAMERAROLLGREEN";
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.exam-cam-calc-roll-green";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD6A8509282CCB1300FF089A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BU96XRZ7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "exam-cam-calc/Resources/Targets/app-green-camera-roll.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app wants to take pictures.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-DCAMERAROLLGREEN";
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.exam-cam-calc-roll-green";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDB9B2E6282BCE6A00BCDEC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDB9B2E7282BCE6A00BCDEC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDB9B2E9282BCE6A00BCDEC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BU96XRZ7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "exam-cam-calc/Resources/Targets/Info.plist";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app wants to use your photos.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-DCAMERALROLLRED";
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.exam-cam-calc-roll-red";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDB9B2EA282BCE6A00BCDEC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BU96XRZ7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "exam-cam-calc/Resources/Targets/Info.plist";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app wants to use your photos.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-DCAMERALROLLRED";
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.exam-cam-calc-roll-red";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDB9B2EC282BCE6A00BCDEC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.exam-cam-calcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/exam-cam-calc.app/exam-cam-calc";
+			};
+			name = Debug;
+		};
+		CDB9B2ED282BCE6A00BCDEC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.exam-cam-calcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/exam-cam-calc.app/exam-cam-calc";
+			};
+			name = Release;
+		};
+		CDB9B2EF282BCE6A00BCDEC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.exam-cam-calcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "exam-cam-calc";
+			};
+			name = Debug;
+		};
+		CDB9B2F0282BCE6A00BCDEC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.exam-cam-calcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "exam-cam-calc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD6A84DF282CC91400FF089A /* Build configuration list for PBXNativeTarget "app-red-built-in-camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6A84E0282CC91400FF089A /* Debug */,
+				CD6A84E1282CC91400FF089A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6A84F3282CCA2700FF089A /* Build configuration list for PBXNativeTarget "app-green-filesystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6A84F4282CCA2700FF089A /* Debug */,
+				CD6A84F5282CCA2700FF089A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6A8507282CCB1300FF089A /* Build configuration list for PBXNativeTarget "app-green-camera-roll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6A8508282CCB1300FF089A /* Debug */,
+				CD6A8509282CCB1300FF089A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDB9B2B9282BCE6700BCDEC7 /* Build configuration list for PBXProject "exam-cam-calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB9B2E6282BCE6A00BCDEC7 /* Debug */,
+				CDB9B2E7282BCE6A00BCDEC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDB9B2E8282BCE6A00BCDEC7 /* Build configuration list for PBXNativeTarget "app-red-cameral-roll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB9B2E9282BCE6A00BCDEC7 /* Debug */,
+				CDB9B2EA282BCE6A00BCDEC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDB9B2EB282BCE6A00BCDEC7 /* Build configuration list for PBXNativeTarget "exam-cam-calcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB9B2EC282BCE6A00BCDEC7 /* Debug */,
+				CDB9B2ED282BCE6A00BCDEC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDB9B2EE282BCE6A00BCDEC7 /* Build configuration list for PBXNativeTarget "exam-cam-calcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB9B2EF282BCE6A00BCDEC7 /* Debug */,
+				CDB9B2F0282BCE6A00BCDEC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDB9B2B6282BCE6700BCDEC7 /* Project object */;
+}
